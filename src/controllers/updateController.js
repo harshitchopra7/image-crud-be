@@ -1,4 +1,4 @@
-export const updatePicture = () => {};
+const updatePicture = () => {};
 
 // step 1 - take image from local
 // step 2 - upload that image to memory storage
@@ -6,3 +6,5 @@ export const updatePicture = () => {};
 // step 4 - find the image in the database by the id given
 // step 5 - update that image object with the new image path (received from cloudinary)
 // step 6 - save in database
+
+module.exports = updatePicture;
